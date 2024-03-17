@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CODES de 2x EXP in Blox Fruits</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style type="text/css">
+        .cabecalho{
+            color: #e170bd;
+            font-size: xx-large;
+        }
+        img, svg {
+            vertical-align: middle;
+            object-fit: none;
+            height: 200px;
+            width: 100%;
+        }
+        .rodape {
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0; /* Define margem como 0 para eliminar qualquer espaço extra */
+        position: fixed; /* Fixa o rodapé na parte inferior */
+        bottom: 0;
+        left: 0; /* Alinha o rodapé à esquerda */
+        right: 0; /* Alinha o rodapé à direita */
+    }
+        .codigos{
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row cabecalho">
+        <div class="col-sm-12">
+        	Blox Fruits
+        </div>
+    </div>
+    <div class="row imagem">
+        <div class="col-sm-12">
+            <img src="https://images.prismic.io/rivalryglhf/84b1a617-0048-4071-b112-5beb2bb793f5_blox-fruits-tier-list-art.jpg?auto=compress,format&rect=0,0,1920,1080&w=610&h=343">
+        </div>
+    </div>
+    <div class="row subtitulo">
+        <div class="col-sm-12"></div>
+    </div>
+    <div class="row codigos">
+        <div class="col-sm-12">
+        	<p id="codigos">
+
+            </p>
+		</div>
+    
+</div>
+
+</body>
+<div class="rodape">
+        By gabjgiguf nickname in roblox
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    var codigosJSON = {
+            "2024": {
+                "Março": {
+                  "REWARDFUN":"Experiência em dobro por 20 minutos.", 
+                  "NEWTROLL": "Código para 20 minutos de 2x XP",
+                  "SECRET_ADMIN": "Código para 20 minutos de 2x XP",
+                  "ADMIN_TROLL": "Código para 20 minutos de 2x XP",
+                  "KITT_RESET": "2x XP para o seu personagem",
+                  "STAFFBATTLE": "Código para 20 minutos de 2x XP (Novo código blox fruits)",
+                  "ADMIN_STRENGTH": "Código para 20 minutos de XP duplo",
+                  "NOOB2PRO": "Código para 20 minutos de 2x XP",
+                  "Sub2CaptainMaui": "Código para 20 minutos de 2x XP",
+                  "CODE_SERVICIO": "Código para 20 minutos de 2x XP",
+                  "DRAGONABUSE": "Código para 20 minutos de 2x XP",
+                  "15B_BESTBROTHERS": "Código para 20 minutos de 2x XP",
+                  "DEVSCOOKING": "Código para 20 minutos de 2x XP",
+                  "TY_FOR_WATCHING": "Código para 20 minutos de 2x XP",
+                  "GAMER_ROBOT_1M": "Código para 20 minutos de 2x XP",
+                  "SUBGAMERROBOT_RESET": "Código para resetar status de graça",
+                  "kittgaming": "2x XP para o seu personagem",
+                  "Sub2Fer999": "2x XP para o seu personagem",
+                  "Bluxxy": "20 minutos de experiência dupla para o seu personagem",
+                  "fudd10_v2": "Recompensa você com 2 Beli",
+                  "fudd10": "Código que Recompensa você com 1 Beli",
+                  "Sub2UncleKizaru": "Reseta os seus pontos de status gratuitamente",
+                  "TheGreatAce": "Código que concede 20 minutos de experiência dupla",
+                  "SUB2GAMERROBOT_RESET1": "Reseta os seus pontos de status gratuitamente",
+                  "Axiore": "20 minutos de experiência dupla",
+                  "Sub2Daigrock": "20 minutos de experiência dupla",
+                  "StrawHatMaine": "20 minutos de experiência dupla",
+                  "TantaiGaming": "20 minutos de experiência dupla",
+                  "SUB2GAMERROBOT_EXP1": "30 minutos de XP duplo",
+                  "CHANDLER": "Código para 0 Beli"
+                }
+              }
+        };
+
+
+        function criarListaCodigos() {
+            var codigosContainer = document.getElementById("codigos");
+
+            // Loop através de todos os meses para o ano de 2024
+            for (var mes in codigosJSON["2024"]) {
+                var mesData = codigosJSON["2024"][mes];
+
+                // Cria um elemento de título para o mês
+                var tituloMes = document.createElement("h3");
+                tituloMes.textContent = mes;
+                codigosContainer.appendChild(tituloMes);
+
+                // Cria uma lista para os itens do mês
+                var listaItensMes = document.createElement("ul");
+                codigosContainer.appendChild(listaItensMes);
+
+                // Adiciona cada item à lista do mês
+                for (var item in mesData) {
+                    var codigo = mesData[item];
+
+                    // Cria um item de lista
+                    var itemLista = document.createElement("li");
+
+                    // Cria um elemento em negrito para o item
+                    var itemNegrito = document.createElement("strong");
+                    itemNegrito.textContent = item + ": ";
+
+                    // Adiciona o item em negrito ao item de lista
+                    itemLista.appendChild(itemNegrito);
+
+                    // Adiciona o código como texto normal ao item de lista
+                    itemLista.appendChild(document.createTextNode(codigo));
+
+                    // Adiciona o item de lista à lista de itens do mês
+                    listaItensMes.appendChild(itemLista);
+                }
+            }
+        }
+
+        // Chama a função para criar a lista de códigos
+        criarListaCodigos();
+    </script>
+</html>
